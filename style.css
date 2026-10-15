@@ -1,25 +1,72 @@
-.logo {
+.main_parent_1{
     display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    height: 53px;
-    width: 241px;
-    margin: 41px 0px 0px 100px;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-button {
+.main_parent_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main_parent_3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+.paragraph_1{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.paragraph_2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.button_1 {
+    background: #00AB89;
+    color: white;
+    border-radius: 35px;
+    width: 204px;
+    height: 48px;
+    font-size: 19px;
+    padding: 10px 20px 10px 20px;
+}
+
+.button_2 {
     background: #00AB89;
     color: white;
     border-radius: 25px;
     width: 287px;
     height: 48px;
-    font-size: 15px;
+    font-size: 19px;
+    padding: 10px 20px 10px 20px;
 }
 
-.main_parent1{
-    display: flex;
-    flex-direction: row;
+.button_3 {
+    background: #00AB89;
+    color: white;
+    border-radius: 25px;
+    width: 194px;
+    height: 48px;
+    font-size: 20px;
+    padding: 10px 50px 10px 50px;
 }
+
+h1{
+    color: #00AB89;
+}
+
+
 
 .Sign_up_photo {
     height: 376px;
@@ -28,29 +75,17 @@ button {
 
 hr {
     background: #B8B9BB;
-    width: 1240px;
-    height: 2px;
 }
 
-.main_parent_2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
-.section_1{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .image1{
     width: 388px;
     height: 278px;
 }
 
-h4{
-    color: #00AB89;
-}
+
 
 .image2{
     width: 388px;
